@@ -4,18 +4,18 @@ pipeline {
             stages{
                 stage('init'){
                     steps{
-                        echo("hello ")
+                        echo('hello')
                     }
                 }
-                stage("build"){
+                stage('build'){
                     step{
-                        echo("hello build stage ")
+                        echo('hello build stage')
                     }
                 }
 
-                stage("deploy"){
+                stage('deploy'){
                     step{
-                        echo("Hello deployement ")
+                        echo('Hello deployement')
                     }
                 } 
             }
