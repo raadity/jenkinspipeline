@@ -8,13 +8,13 @@ pipeline {
                     }
                 }
                 stage('build'){
-                    step{
+                    steps{
                         echo('hello build stage')
                     }
                 }
 
                 stage('deploy'){
-                    step{
+                    steps{
                         echo('Hello deployement')
                     }
                 } 
